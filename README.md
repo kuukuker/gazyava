@@ -37,7 +37,7 @@ text
 
 
 
-
+```mermaid
 erDiagram
     EQUIPMENT ||--o{ STATUS_HISTORY : "имеет"
     EQUIPMENT }o--|| ROOM : "закреплён за"
@@ -74,5 +74,5 @@ erDiagram
         int id PK
         string name "Название корпуса"
     }
-
+```
 
